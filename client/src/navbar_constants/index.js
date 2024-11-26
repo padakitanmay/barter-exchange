@@ -2,24 +2,24 @@ import { createAsset, dashboard, logout, profile, offer } from "../assets";
 
 export const navlinks = [
     {
-        name: "dashboard",
+        name: "Dashboard",
         imgUrl: dashboard,
         link: "/",
     },
 
     {
-        name: "offers",
+        name: "Offers",
         imgUrl: offer,
         link: "/offers",
         disabled: false,
     },
     {
-        name: "profile",
+        name: "Profile",
         imgUrl: profile,
         link: "/profile",
     },
     {
-        name: "logout",
+        name: "Logout",
         imgUrl: logout,
         link: "/",
         disabled: false,
