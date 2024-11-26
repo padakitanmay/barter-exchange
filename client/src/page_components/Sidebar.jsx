@@ -51,7 +51,10 @@ const Sidebar = () => {
                             handleClick={() => {
                                 if (!link.disabled) {
                                     setIsActive(link.name);
-                                    if (link.name === "logout") disconnect();
+                                    if (link.name === "Logout") {
+                                        console.log("logg")
+                                        disconnect()
+                                    }
                                     else navigate(link.link);
                                 }
                             }}
