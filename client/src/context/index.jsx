@@ -12,6 +12,8 @@ const StateContext = createContext();
 export const StateContextProvider = ({ children }) => {
     const { contract } = useContract(
         "0x0ef2bA43367827119C4893a0BA8D881d85a8f8C7"
+        // "0x1523A5E4a483F7adC5A583bd0C9808a67Fd995FD"
+        // "0x9ca5b661c176b52b172c3e2d36b2cc166365b0fb"
     );
     const { mutateAsync: addAsset } = useContractWrite(contract, "addAsset");
     const { mutateAsync: deleteAsset } = useContractWrite(
